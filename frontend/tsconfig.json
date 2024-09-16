@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "target": "es5",                                  // Set the JavaScript version for the output files
+      "lib": [                                          // Specify libraries for the compiler to include
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,                                  // Allow JavaScript files to be compiled along with TypeScript
+      "skipLibCheck": true,                             // Skip type checking of declaration files (.d.ts) in node_modules
+      "esModuleInterop": true,                          // Enable compatibility with non-ES module spec compliant imports
+      "allowSyntheticDefaultImports": true,             // Allow default imports from modules with no default export
+      "strict": true,                                   // Enable all strict type-checking options
+      "forceConsistentCasingInFileNames": true,         // Enforce consistent casing for user-defined file names
+      "noFallthroughCasesInSwitch": true,               // Prevent fall-through in switch statements
+      "module": "esnext",                               // Specify module code generation method
+      "moduleResolution": "node",                       // Choose node-like module resolution for module imports
+      "resolveJsonModule": true,                        // Allow importing JSON files directly
+      "isolatedModules": true,                          // Ensure each file can be transpiled independently
+      "noEmit": false,                                   // Do not emit outputs (no files are generated on compilation)
+      "jsx": "react-jsx",                               // Support JSX in .tsx files, specific to React 17's new JSX transform
+      "outDir": "./dist"                                // Output directory for the compiled files
+    },
+    "include": [
+      "src/**/*"                                        // Include all files in the src directory for compilation
+    ],
+    "exclude": [
+      "node_modules",                                   // Exclude all files in node_modules to avoid compiling them
+      "**/*.spec.ts"                                    // Exclude test files (commonly .spec.ts files) from compilation
+    ]
+  }

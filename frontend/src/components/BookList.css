@@ -1,0 +1,170 @@
+body {
+  /* background-image: linear-gradient(45deg, #de8b8b 25%, rgba(239, 239, 239, 0) 25%, rgba(239, 239, 239, 0) 75%,
+   #efefef 75%, #aa3030), linear-gradient(45deg, #efefef 25%, rgba(239, 239, 239, 0) 25%, 
+   rgba(239, 239, 239, 0) 75%, #efefef 75%, #efefef);; */
+   background-image: linear-gradient(to right , #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.book-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-form {
+  display: flex;
+  margin-bottom: 40px;
+  
+  
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+/* .search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #cd99b2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.insert-button{
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #cd99b2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  
+  
+  
+} */
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  
+  
+}
+
+.book-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.book-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.book-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.title-document {
+ 
+  color: #ffffff;
+  font-style:inherit;
+  text-align: center;
+  font-size: 65px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.add-form {
+  width: 90%;
+	margin: 10px auto;
+	
+	padding: 25px 0;
+	overflow: hidden;
+  
+	
+  -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; 
+  width: 350px;
+  padding-bottom: 50px
+  
+  }
+  
+  
+
+
+  .insertTite {
+    border-radius: 5px 5px 5px 5px; 
+  }
+  .insertAuthor {
+    border-radius: 5px 5px 5px 5px; 
+  }
+  .insertPublished_Year {
+    border-radius: 5px 5px 5px 5px; 
+  }
+  .insertGenre {
+    border-radius: 5px 5px 5px 5px; 
+  }
+  .insertStock {
+    border-radius: 5px 5px 5px 5px; 
+  }
+
+/* .deleteButton{
+  background-color: #cd99b2;
+  border-radius: 5px;
+  border-color: #cd99b2;
+  color: white;
+  
+}
+
+
+
+.editButton{
+background-color: #cd99b2;
+border-radius: 5px;
+border-color: #cd99b2;
+color: white;
+
+} */
+
+button{
+  background-color: #cd99b2;
+border-radius: 5px;
+border-color: #cd99b2;
+color: white;
+
+}
+
+.modificaLibro{
+  color: white;
+}
+
+.logout-button {
+  position : absolute;
+  top: 0%;
+  right: 0;
+
+}
+
+.mostra-button {
+  position:absolute;
+  top: 30%;
+  left: 760px;
+}
+
